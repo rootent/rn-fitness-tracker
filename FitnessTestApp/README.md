@@ -1,6 +1,6 @@
 ## EXAMPLE APP - FitenssTestApp
 
-####### Android setup
+###### Android setup
 
 1. Go to [google API console](https://console.developers.google.com) and create project.
 2. Go to credentials and create new Android OAuth Client Id with keystore SHA1 fingerprint. (App will be signed with debug.keystore which is located in `android/app` directory.

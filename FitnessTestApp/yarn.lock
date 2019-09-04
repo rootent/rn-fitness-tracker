@@ -837,9 +837,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@kilohealth/rn-fitness-tracker@https://github.com/doville/rn-fitness-tracker.git#development":
-  version "0.0.3"
-  resolved "https://github.com/doville/rn-fitness-tracker.git#78e142dc927da6a43c00cc1c3855d519e2d0931e"
+"@kilohealth/rn-fitness-tracker@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@kilohealth/rn-fitness-tracker/-/rn-fitness-tracker-0.0.4.tgz#7908275f5bdb9d832cfc895f30d52afeecf29e3a"
+  integrity sha512-WHc6HanPs26KXXsrmg+A+Iju6OM9lO+YVvJfmV5YeRvYgEjP23EUMm8VwgDNCQScVhjAIz2/lZMxDLUZv2hJQQ==
 
 "@react-native-community/cli-platform-android@^2.6.0", "@react-native-community/cli-platform-android@^2.9.0":
   version "2.9.0"

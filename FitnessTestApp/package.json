@@ -10,7 +10,7 @@
     "ios": "react-native run-ios"
   },
   "dependencies": {
-    "@kilohealth/rn-fitness-tracker": "https://github.com/doville/rn-fitness-tracker.git#development",
+    "@kilohealth/rn-fitness-tracker": "^0.0.4",
     "react": "16.8.6",
     "react-native": "0.60.5"
   },
