@@ -29,9 +29,9 @@ public class GoogleFitManager implements ActivityEventListener {
 
   FitnessOptions fitnessOptions = FitnessOptions.builder()
           .addDataType(DataType.TYPE_STEP_COUNT_DELTA, FitnessOptions.ACCESS_READ)
-          .addDataType(DataType.TYPE_DISTANCE_DELTA, FitnessOptions.ACCESS_READ)
-          .addDataType(DataType.AGGREGATE_DISTANCE_DELTA, FitnessOptions.ACCESS_READ)
-          .addDataType(DataType.AGGREGATE_STEP_COUNT_DELTA, FitnessOptions.ACCESS_READ)
+    //      .addDataType(DataType.TYPE_DISTANCE_DELTA, FitnessOptions.ACCESS_READ)
+    //      .addDataType(DataType.AGGREGATE_DISTANCE_DELTA, FitnessOptions.ACCESS_READ)
+    //      .addDataType(DataType.AGGREGATE_STEP_COUNT_DELTA, FitnessOptions.ACCESS_READ)
           .build();
 
   public GoogleFitManager(ReactApplicationContext reactContext) {
@@ -49,6 +49,7 @@ public class GoogleFitManager implements ActivityEventListener {
 
   @Override
   public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
+    
     if (requestCode == GOOGLE_FIT_PERMISSIONS_REQUEST_CODE) {
       if (resultCode == Activity.RESULT_OK) {
         subscribeToActivityData();
